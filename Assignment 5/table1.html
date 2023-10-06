@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ᴀssɪɢɴᴍᴇɴᴛ 5(ᴛᴀʙʟᴇ 1)</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!-- Heading -->
+        <h2>Nested Tables</h2>
+        <table border="1">
+            <!-- Row 1 -->
+            <tr>
+                <th>Header column 1</th>    
+                <th>Header column 2</th>
+                <th>Header column 3</th>
+                <th>Header column 4</th>
+            </tr>
+            <!-- Row 2 -->
+            <tr>
+                <td>Row 2 - Item 1</td>
+                <td>Row 2 - Item 2</td>
+                <td rowspan="2">
+                    <h4>Row 2: Nested Table 1</h4>
+                    <!-- Table  -->
+                    <table border="1">                                      
+                        <!-- Row 2.1 -->
+                        <tr>
+                            <th>Row 1 Header</th>
+                            <td>item</td>
+                        </tr>
+                        <!-- Row 2.2 -->
+                        <tr>
+                            <th>Row 2 Header</th>
+                            <td>item</td>
+                        </tr>
+                        <!-- Row 2.3 -->
+                        <tr>
+                            <th>Row 3 Header</th>
+                            <td>item</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Row 2 - Item 4<br/>A second line</td>
+            </tr>
+            <!-- Row 3 -->
+            <tr>
+                <td>
+                    <h4>Row 3: Nested Table 2</h4>
+                    <table border=1>
+                       <!-- Row 3.1 -->
+                        <tr>
+                            <th>Row 1 Header</th>
+                            <td>item</td>
+                        </tr>
+                        <!-- Row 3.2 -->
+                        <tr>
+                            <th>Row 2 Header</th>
+                            <td>item</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Row 3 - Item 2</td>
+                <td rowspan="2">Row 3 - Item 3</td>
+            </tr>
+            <!-- Row 4 -->
+            <tr>
+                <td>Row 4 - Item 1</td>
+                <td>Row 4 - Item 2</td>
+                <td>Row 4 - Item 3</td>
+            </tr>
+            <!-- Row 5 -->
+            <tr>
+                <td colspan="4">Row 5 - Last row of outer table</td>
+            </tr>
+        </table>
+        <!-- Go Back Option  -->
+        <h3><a href="./Assignments 05.html">Go Back</a></h3>
+    
+    </body>
+</html>
